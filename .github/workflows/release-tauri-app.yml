@@ -1,6 +1,6 @@
 name: release-tauri-app
 
-on: [pull-request]
+on: [pull_request, push]
 
 jobs:
   create-and-upload-assets:
