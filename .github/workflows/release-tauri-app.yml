@@ -32,7 +32,7 @@ jobs:
       - name: build finatr for tauri app
         run: yarn build
       - run: cargo install tauri-bundler --force
-      - uses: tauri-apps/tauri-action@v0.0.3
+      - uses: tauri-apps/tauri-action@v0.0.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
